@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(170, 169, 169);
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .hr {
+    display: flex;
+    align-items: center;
+  }
+
+  hr {
+    width: 30px;
+    height: 1px;
+    background: black;
+    margin: 0 15px;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .mission-txt {
+    font-size: 60px;
+    font-weight: 500px;
+    font-style: italic;
+    margin-top: 0;
+  }
+
+  div img {
+    width: 250px;
+    filter: drop-shadow(0 10px 5px black);
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .faculties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .unit {
+    margin: 25px;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    -webkit-text-stroke: .15px black;
+  }
+
+  .unit img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  
+  .unit p {
+    text-align: left;
+    margin: 2px;
+  }
+
+  .unit p:first-of-type {
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width:820px) {
+    .wrapper {
+      width: 80%;
+      padding: 5px 30px;
+    }
+  }
+
+  .edu{
+
+        text-shadow: #7300ff;
+        -webkit-text-stroke: 1.5px black;
+        color: white ;
+        font-size: 100px;
+    
+
+  }

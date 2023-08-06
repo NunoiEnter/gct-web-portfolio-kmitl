@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-decoration:  none ;
+}
+
+.title{
+    text-align: left;
+     text-decoration:  none ;
+}
+
+nav {
+  background-color: #333; /* Background color of the navigation bar */
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff; /* Text color for the title and button */
+  position: fixed; /* This will fix position of nav bar */
+  justify-content: space-between; /* To push the title and button to the opposite sides */
+}
+
+.navbar-left h1 {
+  margin: 0;
+}
+
+.navbar-right a {
+  text-decoration: none;
+   background-color: #ff8809; 
+  color: #fff; /* Text color for the button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+#c {
+  margin-right: 20px;
+}
+
+.navbar-right a:hover{
+  background-color: #9e2626; /* Background color of the button */
+  color: #fff; /* Text color for the button */
+  border: none;
+  transform: scale(1.2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 2px;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: #9e2626;
+}
+
+.inactive {
+  background-color: #ff8809;
+}
+
+
+#about {
+  background: linear-gradient(to bottom, #ff512f,#dd2476); 
+  color: #000000; 
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #000000;
+  text-decoration:  none ;
+
+}
+
+#skills {
+  background: linear-gradient(to bottom,#dd2476 , #ff512f); 
+  color: #000000; 
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #000000;
+  text-decoration:  none ;
+}
+#education {
+  background: linear-gradient(to bottom, #ff512f,#dd2476); 
+  color: #000000; 
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #000000;
+  text-decoration:  none ;
+}
+#contacts {
+  background: linear-gradient(to bottom,#dd2476 , #ff512f); 
+  color: #000000;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #000000;
+  text-decoration:  none ;
+}
+
+
+

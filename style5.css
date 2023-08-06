@@ -1,0 +1,124 @@
+.skilltitle{
+    text-shadow: #7300ff;
+    -webkit-text-stroke: .5px black;
+    color: white ;
+    font-size: 60px;
+   
+    
+
+}
+.skill {
+    margin-bottom: 0px;
+    position: relative;
+ 
+  
+}
+.skill > p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+   
+
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#7300ff;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 80%;
+    color: white;
+  
+}
+.skill-bar span{
+    position: absolute;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+    color: ffff;
+
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 75%;
+    color: white;
+
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 70%;
+    color: white;
+
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 65% ;
+    color: white;
+
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 40%;
+    color: white;
+
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+    width: 40% ;
+    color: white;
+
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+
+#edu{
+
+    text-shadow: #7300ff;
+    -webkit-text-stroke: .5px black;
+    color: white ;
+    font-size: 60px;
+}   
